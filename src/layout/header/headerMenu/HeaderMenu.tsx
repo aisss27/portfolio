@@ -31,6 +31,11 @@ ul{
   gap: 30px;
   justify-content: center;
 }
+  
+  @media ${theme.media.tablet} {
+    display: none;
+  }
+  
   `
 
 
