@@ -28,7 +28,7 @@ const StyledSkill = styled.div`
   flex-grow: 1;
   padding: 62px 20px 40px;
   
-  @media ${theme.media} {
+  @media ${theme.media.mobile}{
     padding: 62px 0 40px;
   }
 `
